@@ -1,0 +1,12 @@
+CREATE DATABASE SQLServerDB;
+GO
+
+USE SQLServerDB;
+GO
+
+CREATE TABLE initialization (
+    ID INT IDENTITY(1,1) NOT NULL,
+    Init_Date DATETIME NOT NULL,
+    PRIMARY KEY (ID)
+);
+GO
