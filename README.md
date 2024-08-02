@@ -1,4 +1,4 @@
-# SQL Server Container
+# MS SQL Server Container
 
 This project uses Docker and Docker Compose to create a SQL Server container. The database is initialized using a script located at `./sql/init.db`. Configuration settings such as the SA password and acceptance of the EULA are set in an `.env` file.
 
@@ -29,7 +29,7 @@ This project uses Docker and Docker Compose to create a SQL Server container. Th
 
 ## Connecting to the Database
 
-You can connect to the database using the hostname `localhost` and the port `1433`. Use the `SA` account to login with the password provided in the `.env` file.
+You can connect to the database using the hostname `127.0.0.1` and the port `1433`. Use the `SA` account to login with the password provided in the `.env` file.
 
 ## Stopping the Container
 
