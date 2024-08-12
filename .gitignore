@@ -1,2 +1,5 @@
 # ignore env
 .env
+
+# db projects
+/db_projects
