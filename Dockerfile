@@ -1,5 +1,5 @@
 # Use the official image as a parent image
-FROM mcr.microsoft.com/mssql/server:2019-latest
+FROM mcr.microsoft.com/mssql/server:2022-latest
 
 # Set the working directory
 WORKDIR /usr/src/app
